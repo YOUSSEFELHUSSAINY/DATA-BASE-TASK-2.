@@ -1,0 +1,15 @@
+select*
+from classicmodels.customers
+where contactFirstName regexp'B[GA]';
+
+select*
+from classicmodels.customers
+where contactFirstName regexp'el$|ie';
+
+select*
+from classicmodels.customers
+where contactFirstName regexp'je|le';
+
+
+
+
